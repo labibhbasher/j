@@ -60,9 +60,10 @@ public class StudentForm extends JFrame implements ActionListener {
         if (female.isSelected())
             g = "Female";
 
-        result.setText("Submitted: " + name.getText()
-                + ", ID: " + id.getText()
-                + ", " + g);
+      result.setText("Submitted: " + name.getText()
+        + ", ID: " + id.getText()
+        + ", Dept: " + dept.getSelectedItem()
+        + ", " + g);
     }
 
     public static void main(String[] args) {
